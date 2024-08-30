@@ -1,0 +1,74 @@
+body{
+    background-color: #0e2d58;
+}
+#container{
+    background-color: #0c2445;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    border-radius: 32px;
+}
+#box{
+    padding: 20px;
+    display: flex;
+}
+.bbox{
+    
+}
+#icon{
+    height: 3rem;
+}
+#title{
+    display: flex;
+    justify-content: baseline;
+    align-items: baseline;
+    translate: 14%;
+}
+#heading{
+    font-family: "Matemasie", sans-serif;
+    font-weight: 400;
+    font-size: 2rem;
+    position: relative;
+    bottom: 5px;
+    color: aliceblue;
+}
+#img-div{
+    background-color: #113881;
+    width: 360px;
+    height: 360px;
+    border-radius: 20px;
+    text-align: center;
+    display: grid;
+    grid-gap: 150px;
+}
+#caption1-el, #caption2-el{
+    color: white;
+    -webkit-text-stroke: rgb(56, 54, 54) 1px;
+    font-family: "Poppins", sans-serif;
+    font-weight: bolder;
+}
+#input-div{
+    text-align: center;
+    margin-top: 4px;
+}
+input{
+    width: 330px;
+    border-radius: 10px;
+    border: #0e2d58 2px solid;
+    outline: none;
+    padding: 10px;
+    background-color: #0e2d58;
+    margin: 4px;
+    color: white;
+}
+button{
+    width: 350px;
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    margin-top: 3px;
+    color: #0e2d58;
+    font-weight: bold;
+    background-color: #ffc2c0;
+}
